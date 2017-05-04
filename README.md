@@ -4,9 +4,9 @@
 [//]: # (Image References)
 
 [image1]: pics/nvidia_model.png "Model Visualization"
-[image2]: pics/3.png "Recovery Image"
-[image3]: pics/1.png "Normal Image"
-[image4]: pics/2.png "Flipped Image"
+[image2]: pics/3.jpg "Recovery Image"
+[image3]: pics/1.jpg "Normal Image"
+[image4]: pics/2.jpg "Flipped Image"
 
 ---
 
@@ -72,7 +72,9 @@ I finally randomly shuffled the data set and put 15% of the data into a validati
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was between 5 and 10. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
-### Performance example
+### Training file and performance example
+
+A pre-trained keras file can be downloaded from [this link](https://www.dropbox.com/s/kxodvoysk30qx1k/model.h5.tar.gz?dl=1)
 
 The following low-res video shows an example of the performance of the network driving a car around a track in Udacity's self driving car simulator.
 
