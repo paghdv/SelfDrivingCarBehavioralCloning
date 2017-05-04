@@ -31,7 +31,7 @@ The train.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-The cnn architecture implemented is one developped by NVidia for self driving cars. Ref. https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/
+The cnn architecture implemented is one developped by [NVidia for self driving cars](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
 It consists of a normalization step, 3 5x5 convolutions with a 2x2 stride, 2 3x3 convolusions with a single stride and then a fully connected networks with layers of 1164, 100, 50 and 10 neurons.
 The model includes RELU layers to introduce nonlinearity. 
 
